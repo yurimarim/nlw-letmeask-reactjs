@@ -22,5 +22,7 @@ firebase.initializeApp(firebaseConfig);
 
 // facilitar o acesso aos recursos, ao invés de sempre chamar as funções, 
 // atribuir as funções a uma const, no caso auth e database
-export const auth = firebase.auth();
-export const database = firebase.database();
+const auth = firebase.auth();
+const database = firebase.database();
+
+export { firebase, auth, database };

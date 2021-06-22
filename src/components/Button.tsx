@@ -1,23 +1,13 @@
-import { useState } from "react";
+import { ButtonHTMLAttributes } from 'react';
 
-export function Button() {
-  // let it change
-  // let counter = 0;
+import '../styles/button.scss'
 
-  const [counter, setCounter] = useState(0);
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement>;
 
-  function increment() {
-    setCounter(counter + 1);
-
-  }
-
+export function Button(props: ButtonProps) {
   return (
-    // sempre que quiser colocar um código JS, deve estar entre {}
-    // || (or) 'Default' -> por conta que o type text ele é opcional (text?), 
-    //  então pode dar erro por que os outros elementos não foram setados
-    <button onClick={increment}>
-      {counter}
-    </button>
+    // spread operator => distribui todas as propriedades recebidas como parâmetro dentro do button
+    <button className="button" {...props} />
   )
 }
 
