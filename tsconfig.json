@@ -1,3 +1,4 @@
+// Arquivo de configuração do TypeScript
 {
   "compilerOptions": {
     "target": "es5",
