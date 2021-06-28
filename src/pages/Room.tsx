@@ -1,5 +1,5 @@
 import { useState, FormEvent, useEffect } from 'react';
-import { useParams } from 'react-router-dom'
+import { useHistory, useParams } from 'react-router-dom'
 
 import logoImg from '../assets/images/logo.svg';
 
@@ -41,12 +41,19 @@ type RoomParams = {
 
 export function Room() {
   const { user } = useAuth();
+  const history = useHistory();
   const params = useParams<RoomParams>(); // generic - parâmetro para a tipagem. 
   const [newQuestion, setNewQuestion] = useState('');
   const [questions, setQuestions] = useState<Question[]>([]);
   const [title, setTitle] = useState('');
 
   const roomId = params.id;
+
+  useEffect(() => {
+    if (!user) {
+      history.push('/')
+    }
+  }, [user, history])
 
   useEffect(() => {
     const roomRef = database.ref(`rooms/${roomId}`);

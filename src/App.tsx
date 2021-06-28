@@ -5,6 +5,7 @@ import { NewRoom } from './pages/NewRoom';
 import { Room } from './pages/Room';
 
 import { AuthContextProvider } from './contexts/AuthContext'
+// import { ThemeContextProvider } from './contexts/ThemeContext';
 
 function App() {
   return (
