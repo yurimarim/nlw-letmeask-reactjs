@@ -9,7 +9,7 @@ import { database } from '../services/firebase';
 import { Button } from '../components/Button';
 import { useAuth } from '../hooks/useAuth';
 
-import '../styles/auth.scss'
+import '../styles/auth.scss';
 
 // Webpack (snowpack, vite, ...) => Module Bundler -> todas as importações passam pelo Webpack (utilizando JS)
 
@@ -41,6 +41,11 @@ export function Home() {
 
     if (!roomRef.exists()) {
       alert('Room does not exists.');
+      return;
+    }
+
+    if (roomRef.val().endedAt) {
+      alert('Room already closed.');
       return;
     }
 

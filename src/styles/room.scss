@@ -13,6 +13,16 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        // propriedade GAP - adicionar espaçamento de dentro de um display: flex ou display: grid (se tiver dois elementos)
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
 
@@ -93,6 +103,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
