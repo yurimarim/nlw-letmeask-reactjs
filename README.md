@@ -41,9 +41,12 @@ $ yarn install
 
 # Execute a aplicação
 $ yarn start
+
+# Configurar o .env.local
+- Configuração das chaves de auth com o Firebase.
 ```
 
-## Licença e Autora
+## Licença e Autor
 
 Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](https://github.com/yurimarim/nlw-letmeask-reactjs/blob/main/LICENSE.txt) para mais detalhes.
 
