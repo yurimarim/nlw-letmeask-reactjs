@@ -3,15 +3,15 @@
 </p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/lorenatoscano/letmeask?color=e6e6e8">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/yurimarim/nlw-letmeask-reactjs?color=e6e6e8">
   
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/lorenatoscano/letmeask?color=e6e6e8">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/yurimarim/nlw-letmeask-reactjs?color=e6e6e8">
   
 <p align="center">
   <a href="#sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#como-rodar">Como rodar?</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#licença-e-autora">Licença e Autora</a>
+  <a href="#licença-e-autor">Licença e Autor</a>
 </p>
 
 ## Sobre
