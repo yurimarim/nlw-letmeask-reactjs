@@ -21,9 +21,9 @@
 - [Figma Template](https://www.figma.com/file/8lQc4MqRMiHLHupNo3YZRA/Letmeask-(Copy)?node-id=45%3A3279)
 
 ### Tecnologias utilizadas 
-- [React.JS](https://reactjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Firebase](https://firebase.google.com/?hl=pt)
+-   [ ] [React.JS](https://reactjs.org/)
+-   [ ] [TypeScript](https://www.typescriptlang.org/)
+-   [ ] [Firebase](https://firebase.google.com/?hl=pt)
 
 ## Como rodar?
 
